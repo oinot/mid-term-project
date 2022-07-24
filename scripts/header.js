@@ -1,6 +1,4 @@
 
-
-
 class Header extends HTMLElement {
     constructor() {
       super();
@@ -38,7 +36,7 @@ connectedCallback() {
           }
         
           .btn-nav {
-            padding: 16px 50px;
+            padding: 14px 40px;
             color: #ecf7ff;
             background-color: #072ac8;
           }
@@ -52,6 +50,7 @@ connectedCallback() {
         .menu-toggle {
           position: relative;
           display: flex;
+          margin-right: 10px;
           flex-direction: column;
           justify-content: center;
           align-items: center;

@@ -1,9 +1,9 @@
-
 * {
   margin: 0;
   box-sizing: border-box;
   font-style: normal;
   text-decoration: none;
+  color: #514d67;
 }
 
 html,
@@ -14,14 +14,63 @@ body {
 body {
   color: #ecf7ff;
   font-family: "Roboto";
-  display: flex;
-  flex-direction: row;
 }
 
 main {
   flex: 1 0 auto;
 }
 
+/* texts and fonts */
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  font-weight: 700;
+}
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4,
+.body-intro {
+  font-size: 24px;
+}
+.body-intro,
+.headline-text-medium {
+  font-weight: 500;
+}
+.body-intro-regular,
+.headline-text-regular,
+.caption-text-regular,
+.caption-text-alternative {
+  font-weight: 400;
+}
+
+.body-intro-regular {
+  font-size: 20px;
+}
+
+.headline-text-regular,
+.headline-text-medium {
+  font-size: 17px;
+}
+
+.caption-text-regular {
+  font-size: 15px;
+}
+.caption-text-alternative {
+  font-size: 13px;
+}
+
 header-component {
-    width: 100%;
+  width: 100%;
 }
