@@ -8,42 +8,47 @@ connectedCallback() {
     this.innerHTML = `
           <style>
           .nav-link:hover {
-            border-bottom: 3px solid #072ac8;
-            
-          }
-        .active {
-            font-weight: 700;
+            padding-bottom: 10px;
             border-bottom: 3px solid #072ac8;
           }
-        /* navbar */
-        @media screen and (min-width: 768px) {
-          .navbar {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            height: 52px;
-            margin: 70px 170px 100px;
+          .active {
+            color:#072ac8;
+            padding-bottom: 10px;
+          
           }
-        
-          .navbar ul {
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 25%;
+          /* navbar */
+          @media screen and (min-width: 768px) {
+            .navbar {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              height: 52px;
+              margin: 70px 170px 100px;
+            }
+          
+            .navbar ul {
+              margin: 0;
+              padding: 0;
+              list-style-type: none;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              width: 33%;
+            }
+            .btn-nav {
+              border: none;
+              padding: 15px;
+         
+              cursor: pointer;
+            }
+            .btn-nav > a{
+              color: #ecf7ff;
+            }
+            .menu-toggle,
+            .mobile-only {
+              display: none;
+            }
           }
-        
-          .btn-nav {
-            padding: 14px 40px;
-            color: #ecf7ff;
-            background-color: #072ac8;
-          }
-          .menu-toggle, .mobile-only {
-            display: none;
-          }
-        }
         @media screen and (max-width: 768px) {
         /* hamburger menu */
         
@@ -171,9 +176,9 @@ connectedCallback() {
                 <a class="nav-link" href="#"> contact Us </a>
             </li>
         </ul>
-        <link>
-        <a class="btn-nav" href="#"> Contact Us </a>
-        </link>
+        <button class="btn-nav btn btn-cta">
+        <a class = "headline-text-medium" href="#"> Contact Us </a>
+        </button>
         <div class="menu-toggle">
             <div class="hamburger"></div>
             </div>

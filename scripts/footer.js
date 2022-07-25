@@ -59,14 +59,13 @@ class Footer extends HTMLElement {
           grid-column-gap: 0px;
           grid-row-gap: 0px;
           text-align: center;
-          margin: 10px 10px 0;
         }
         .div1 {
           grid-area: 1 / 1 / 2 / 3;
         }
         .div2 {
           grid-area: 2 / 1 / 3 / 3;
-          margin-bottom: 30px;
+          margin-bottom: 50px;
         }
         .div3 {
           grid-area: 3 / 1 / 4 / 2;
@@ -92,8 +91,8 @@ class Footer extends HTMLElement {
       <div class="grid">
         <div class="div1">
           <svg
-            width="62"
-            height="20"
+            width="80"
+            height="50"
             viewBox="0 0 62 20"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
