@@ -120,7 +120,7 @@ connectedCallback() {
             top: 0;
             left: 0;
             width: 70%;
-            height: 100vh;
+            height: 100%;
             background-color: #FFC600;
             padding: 4.4rem;
             display: flex;
