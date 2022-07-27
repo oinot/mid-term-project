@@ -1,4 +1,4 @@
-Objectives of mid term porject @ Ironhack:
+Objectives of mid term project @ Ironhack:
 
 - Build a responsive website using only HTML, CSS & JavaScript
 -  Use different layout properties like Flexbox, Grid and     positioning when needed
@@ -25,3 +25,7 @@ Building a website for a fictional web design company. This includes a few pages
     - making all the fields in the contact form required before being - able to submit it.
     - (bonus) adding animations to different sections, like the “recent projects” cards.
 
+Extra Features
+- Header and footer as components
+- animation transition in buttons
+- hamburger style mobile menu
