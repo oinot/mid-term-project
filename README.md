@@ -1,4 +1,4 @@
-Objectives of mid term porject @ Ironhack:
+Objectives of mid term project @ Ironhack:
 
 - Build a responsive website using only HTML, CSS & JavaScript
 -  Use different layout properties like Flexbox, Grid and     positioning when needed
