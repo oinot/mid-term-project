@@ -38,7 +38,6 @@ connectedCallback() {
             .btn-nav {
               border: none;
               padding: 15px;
-         
               cursor: pointer;
             }
             .btn-nav > a{
