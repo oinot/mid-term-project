@@ -1,56 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/styles/main.css" rel="stylesheet" type="text/css" />
     <link href="/styles/contact-form.css" rel="stylesheet" type="text/css" />
-    <script src="/scripts/scripts.js" type="text/javascript" defer></script>
     <script src="/scripts/header.js" type="text/javascript" defer></script>
     <script src="/scripts/menuTrigger.js" type="text/javascript" defer></script>
     <script src="/scripts/footer.js" type="text/javascript" defer></script>
     <title>Ironhack - Mid term Project</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header-component></header-component>
     <main>
-        <section class="form-section">
-            <div class="title">
-                <h1>
-                    Contact Us
-                </h1>
+      <section class="form-section">
+        <div class="title">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="form">
+          <form action="/some-url" mathod="post">
+            <div class="form-item-col">
+              <label for="name">Full name *</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter your full name"
+                required
+              />
             </div>
-            <div class="form">
-                <form action="/some-url" mathod="post">
-                    <div class="form-item-col">
-                        <label for="name">Full name *</label>
-                        <input type="text" id="name" placeholder="Enter your full name" required>
-                    </div>
-                    <div class="form-item-row">
-                        <div class="form-inner-col">
-                            <label for="email">Email: </label>
-                            <input type="email" id="email" placeholder="Enter your email address">
-                        </div>
-                        <div class="form-inner-col">
-                            <label for="phone">Phone:</label>
-                            <input type="tel" id="phone" placeholder="Enter your phone number">
-                        </div>
-                    </div>
-                    <div class="form-item-col message-form">
-                        <label for="Message">Message</label>
-                        <input type="text" id="message" placeholder="Write your message here ....">
-                    </div>
-                    <div class="summit-btn">
-                        <button class="btn btn-cta headline-text-medium">
-                            <a href="">Submit</a>
-                        </button>
-                    </div>
-                </form>
+            <div class="form-item-row">
+              <div class="form-inner-col">
+                <label for="email">Email: </label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter your email address"
+                />
+              </div>
+              <div class="form-inner-col">
+                <label for="phone">Phone:</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  placeholder="Enter your phone number"
+                />
+              </div>
             </div>
-        </section>
+            <div class="form-item-col message-form">
+              <label for="Message">Message</label>
+              <input
+                type="text"
+                id="message"
+                placeholder="Write your message here ...."
+              />
+            </div>
+            <form class="summit-btn">
+              <button class="btn btn-cta headline-text-medium" action="/some-url">
+                <span>Submit</span>
+              </button>
+            </form>
+          </form>
+        </div>
+      </section>
     </main>
     <footer-component></footer-component>
-</body>
+  </body>
+</html>
