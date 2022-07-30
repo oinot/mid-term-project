@@ -165,7 +165,7 @@ connectedCallback() {
         </div>
         <ul class="nav-list">
             <li class="nav-item">
-                <a class="nav-link" href="index.html"> Home </a>
+                <a class="nav-link" href="../index.html"> Home </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="../pages/project-page.html"> Projects </a>
