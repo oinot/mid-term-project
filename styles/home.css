@@ -37,16 +37,18 @@
 
 .article-cta {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: left;
 }
 
 .article-cta button,
-.article-cta button > a {
+.article-cta button > span,
+.article-cta a  {
   padding: 15px;
 }
 
-.article-cta > div > a {
+.article-cta > form > span {
   padding: 0 40px;
 }
 
