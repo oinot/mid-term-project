@@ -6,7 +6,9 @@ class Footer extends HTMLElement {
     connectedCallback() {
       this.innerHTML = `
       <style>
-      @media screen and (min-width: 768px) {
+        footer {
+          height: 242px
+        }      
         .grid {
           display: grid;
           grid-template-columns: 3fr repeat(3, 1fr) 0;
@@ -14,32 +16,41 @@ class Footer extends HTMLElement {
           grid-column-gap: 0px;
           grid-row-gap: 0px;
           align-items: center;
-          margin: 70px 170px 20px;
+          margin: 70px 170px;
         }    
+
         .div1 {
           grid-area: 1 / 1 / 2 / 2;
         }
+
         .div2 {
           grid-area: 2 / 1 / 3 / 2;
         }
+
         .div3 {
           grid-area: 1 / 2 / 2 / 3;
         }
+
         .div4 {
           grid-area: 1 / 3 / 2 / 4;
         }
+
         .div5 {
           grid-area: 1 / 4 / 2 / 5;
         }
+
         .div6 {
           grid-area: 2 / 2 / 3 / 3;
         }
+
         .div7 {
           grid-area: 2 / 3 / 3 / 4;
         }
+
         .div8 {
           grid-area: 2 / 4 / 3 / 5;
-        }    
+        }
+
         .div3,
         .div4,
         .div5,
@@ -49,7 +60,7 @@ class Footer extends HTMLElement {
           padding: 20px;
           text-align: center;
         }
-      }    
+
       @media screen and (max-width: 768px) {
         .grid {
           align-items: center;
@@ -59,29 +70,37 @@ class Footer extends HTMLElement {
           grid-column-gap: 0px;
           grid-row-gap: 0px;
           text-align: center;
+          margin: 70px 10px;
         }
         .div1 {
           grid-area: 1 / 1 / 2 / 3;
         }
+
         .div2 {
           grid-area: 2 / 1 / 3 / 3;
           margin-bottom: 50px;
         }
+
         .div3 {
           grid-area: 3 / 1 / 4 / 2;
         }
+
         .div4 {
           grid-area: 3 / 2 / 4 / 3;
         }
+
         .div5 {
           grid-area: 4 / 1 / 5 / 2;
         }
+
         .div6 {
           grid-area: 4 / 2 / 5 / 3;
         }
+
         .div7 {
           grid-area: 5 / 1 / 6 / 2;
         }
+
         .div8 {
           grid-area: 5 / 2 / 6 / 3;
         }

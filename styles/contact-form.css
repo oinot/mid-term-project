@@ -1,52 +1,56 @@
 .form-section {
-    margin: 140px 170px 20px;
+  margin: 140px 170px 20px;
 }
 
 .title {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
-.form {
-
-}
-
-.form-item-col, .form-inner-col {
-    display: flex;
-    flex-direction: column;
-    margin: 20px 0;
+.form-item-col,
+.form-inner-col {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
 }
 .form-item-row {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .form-inner-col {
-    width: 45%;
+  width: 49%;
 }
 
-
 label {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 input {
-    background-color:#6B708D1A;
-    border: none;
-    height: 70px;
-    text-indent: 20px;
-}
-input[id='message']::placeholder {
-    position: relative;
-    top:0;
+  background-color: #6b708d1a;
+  border: none;
+  height: 70px;
+  text-indent: 20px;
 }
 
 #message {
-    height: 240px;
+  height: 240px;
 }
 
 .summit-btn button {
-    margin: 20px 0 0;
-    height: 80px;
-    width: 100%;
+  margin: 20px 0 0;
+  height: 80px;
+  width: 100%;
 }
+@media screen and (max-width: 768px) {
+    .form-section {
+        margin: 40px 10px 20px;
+      }
+      .form-item-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .form-inner-col {
+        width: 100%;
+      }
+    }

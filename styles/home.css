@@ -327,7 +327,6 @@
   align-items: center;
 }
 
-
 @media screen and (max-width: 768px) {
   .faces {
     display: none;
@@ -364,7 +363,7 @@
   margin-top: 20px;
 }
 
-form {
+.nl-form {
   margin-top: 50px;
 }
 
@@ -385,12 +384,12 @@ input#email:focus {
   text-indent: 0px;
 }
 
-form > button {
+.nl-form > button {
   width: 198px;
   height: 90px;
 }
 
-form > button:hover {
+.nl-form > button:hover {
   border: 1px solid #072ac8;
 }
 
