@@ -1,0 +1,52 @@
+.form-section {
+    margin: 140px 170px 20px;
+}
+
+.title {
+    margin-bottom: 80px;
+}
+
+.form {
+
+}
+
+.form-item-col, .form-inner-col {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.form-item-row {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form-inner-col {
+    width: 45%;
+}
+
+
+label {
+    padding: 10px 0;
+}
+
+input {
+    background-color:#6B708D1A;
+    border: none;
+    height: 70px;
+    text-indent: 20px;
+}
+input[id='message']::placeholder {
+    position: relative;
+    top:0;
+}
+
+#message {
+    height: 240px;
+}
+
+.summit-btn button {
+    margin: 20px 0 0;
+    height: 80px;
+    width: 100%;
+}

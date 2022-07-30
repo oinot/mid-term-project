@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/styles/styles.css" rel="stylesheet" type="text/css" />
+    <link href="/styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="/styles/contact-form.css" rel="stylesheet" type="text/css" />
     <script src="/scripts/scripts.js" type="text/javascript" defer></script>
     <script src="/scripts/header.js" type="text/javascript" defer></script>
     <script src="/scripts/menuTrigger.js" type="text/javascript" defer></script>
@@ -16,34 +17,36 @@
 <body>
     <header-component></header-component>
     <main>
-        <section>
-            <div>
+        <section class="form-section">
+            <div class="title">
                 <h1>
                     Contact Us
                 </h1>
             </div>
-            <div>
+            <div class="form">
                 <form action="/some-url" mathod="post">
-                    <div>
+                    <div class="form-item-col">
                         <label for="name">Full name *</label>
-                        <input type="text" id="name" placeholder="Enter your full name">
+                        <input type="text" id="name" placeholder="Enter your full name" required>
                     </div>
-                    <div>
-                        <div>
+                    <div class="form-item-row">
+                        <div class="form-inner-col">
                             <label for="email">Email: </label>
                             <input type="email" id="email" placeholder="Enter your email address">
                         </div>
-                        <div>
+                        <div class="form-inner-col">
                             <label for="phone">Phone:</label>
-                            <input type="number" id="phone" placeholder="Enter your phone number">
+                            <input type="tel" id="phone" placeholder="Enter your phone number">
                         </div>
                     </div>
-                    <div>
+                    <div class="form-item-col message-form">
                         <label for="Message">Message</label>
                         <input type="text" id="message" placeholder="Write your message here ....">
                     </div>
-                    <div>
-                        <button><a href="">Submit</a></button>
+                    <div class="summit-btn">
+                        <button class="btn btn-cta headline-text-medium">
+                            <a href="">Submit</a>
+                        </button>
                     </div>
                 </form>
             </div>
