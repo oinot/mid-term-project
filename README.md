@@ -6,11 +6,12 @@ Objectives of mid term project @ Ironhack:
 
 Technical Requirements
 
-- Website should be rendered in a browser.
+- Website should be rendered in a browser. Be deployed online using Netlify so that anybody can access it.
+    https://mellifluous-gaufre-185adf.netlify.app/index.html
 - Include separate HTML / CSS / JavaScript files.
 - Have a repo on GitHub.
+    https://github.com/oinot/mid-term-project
 - Have at least 1 commit per day that you worked on it.
-- Be deployed online using Netlify so that anybody can access it.
 - Stick with KISS (Keep It Simple Stupid) and DRY (Don’t Repeat Yourself) principles.
 
 Project description
