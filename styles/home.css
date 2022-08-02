@@ -266,7 +266,7 @@ figure {
 }
 
 .project-link {
-  padding: 10px 30px;
+  padding: 30px 30px;
   cursor: pointer;
   color: #072ac8;
 }
@@ -411,6 +411,7 @@ input#email:focus {
 .nl-form>button {
   width: 198px;
   height: 90px;
+  border: 1px solid #072ac8;
 }
 
 .nl-form>button:hover {
