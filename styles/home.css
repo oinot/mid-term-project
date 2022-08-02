@@ -354,6 +354,10 @@ figure {
     display: none;
   }
 
+  .testimony {
+    justify-content: space-around;
+  }
+
   .wrapper {
     padding: 20px;
     align-items: center;
