@@ -43,16 +43,17 @@
 }
 
 .article-cta button,
-.article-cta button > span,
-.article-cta a  {
+.article-cta button>span,
+.article-cta a {
   padding: 15px;
 }
 
-.article-cta > form > span {
+.article-cta>form>span {
   padding: 0 40px;
 }
 
 @media (min-width: 768px) and (max-width: 1300px) {
+
   .section-content,
   .section-content-hero {
     width: 100%;
@@ -74,6 +75,7 @@
 }
 
 @media screen and (max-width: 768px) {
+
   .section-content,
   .section-content-hero {
     width: 100%;
@@ -219,6 +221,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  overflow: hidden;
   box-shadow: 0px 0px 45px 20px rgb(0 0 0 / 10%);
 }
 
@@ -227,20 +230,37 @@
   height: 240px;
 }
 
+figure {
+  overflow: hidden;
+}
+
+#zoomIn img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#zoomIn:hover img {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+
 .img-service {
   width: 80px;
   height: 80px;
-  background-color: #ecf7ff;
+  background-color: #A2D6F9;
   border-radius: 50%;
   padding: 20px;
   margin: 30px 30px 0;
 }
 
-.project-block > .body-intro-medium {
+.project-block>.body-intro-medium {
   padding: 10px 30px;
 }
 
-.project-block > .headline-text-regular {
+.project-block>.headline-text-regular {
   padding: 0 30px 54px;
   min-height: 115px;
 }
@@ -299,11 +319,11 @@
 }
 
 .testimony h3,
-.testimony > div > div > p {
+.testimony>div>div>p {
   color: white;
 }
 
-.testimony > div > div > p {
+.testimony>div>div>p {
   padding: 0 5px;
 }
 
@@ -333,10 +353,12 @@
   .faces {
     display: none;
   }
+
   .wrapper {
     padding: 20px;
     align-items: center;
   }
+
   .people-say {
     margin: 30px 0;
   }
@@ -386,12 +408,12 @@ input#email:focus {
   text-indent: 0px;
 }
 
-.nl-form > button {
+.nl-form>button {
   width: 198px;
   height: 90px;
 }
 
-.nl-form > button:hover {
+.nl-form>button:hover {
   border: 1px solid #072ac8;
 }
 
@@ -403,13 +425,16 @@ input#email:focus {
   .newsletter {
     margin: 50px 0;
   }
+
   .newletter-content h3 {
     text-align: center;
   }
+
   input#email {
     width: 100%;
     height: 90px;
   }
+
   .nl-form {
     display: flex;
   }
