@@ -33,6 +33,8 @@ Extra Features
 - Zoom in image hover
 
 Slide Presentation
+
 Spanish - https://slides.com/antonioferraz/palette-ed6102/fullscreen
+
 English - https://slides.com/antonioferraz/palette/fullscreen
 
