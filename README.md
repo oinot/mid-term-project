@@ -30,3 +30,4 @@ Extra Features
 - Header and footer as components
 - animation transition in buttons
 - hamburger style mobile menu
+- Zoom in image hover
