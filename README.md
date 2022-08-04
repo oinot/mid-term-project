@@ -31,3 +31,8 @@ Extra Features
 - animation transition in buttons
 - hamburger style mobile menu
 - Zoom in image hover
+
+Slide Presentation
+Spanish - https://slides.com/antonioferraz/palette-ed6102/fullscreen
+English - https://slides.com/antonioferraz/palette/fullscreen
+
