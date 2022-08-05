@@ -42,6 +42,5 @@ Extra Features
 Slide Presentation
 
 Spanish - https://slides.com/antonioferraz/palette-ed6102/fullscreen
-
 English - https://slides.com/antonioferraz/palette/fullscreen
 
